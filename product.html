@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raw Coriander Product</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Raw Coriander</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="product.html">Product</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+  <main class="product">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Coriander_leaves_in_a_bowl.jpg" alt="Raw Coriander">
+    <div class="details">
+      <h2>Fresh Raw Coriander</h2>
+      <p>Available in 250g, 500g, and 1kg packs. Organically grown and handpicked. Perfect for curries, garnishes, and chutneys.</p>
+      <label for="quantity">Choose quantity:</label>
+      <select id="quantity">
+        <option value="250">250g - ₹30</option>
+        <option value="500">500g - ₹55</option>
+        <option value="1000">1kg - ₹100</option>
+      </select>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
